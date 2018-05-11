@@ -1,7 +1,7 @@
 /*
-=================================================================
-GITHUB REPO: https://github.com/danieljbell/client-theme-template
-=================================================================
+====================================================================
+GITHUB REPO: https://github.com/danieljbell/client-theme--salesforce
+====================================================================
 */
 .salesforce--hero { position: relative; left: -30px; top: -20px; width: calc(100% + 60px); padding: 20px 30px; }
 .salesforce--mountain-right { background-color: #dcf2ff; background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/637724_original.png?1526014970); background-repeat: no-repeat; background-position: bottom right; padding-top: 40px; padding-bottom: 40px; padding-right: 175px; background-size: 100%; }
