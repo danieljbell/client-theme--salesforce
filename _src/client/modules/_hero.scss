@@ -1,0 +1,36 @@
+.salesforce--hero {
+  position: relative;
+  left: -30px;
+  top: -20px;
+  width: calc(100% + 60px);
+  padding: 20px 30px;
+  #content_editor & h1 {
+    @include mobile {
+      font-size: 24px;
+      line-height: 1.2 !important;
+    }
+  }
+}
+
+.salesforce--mountain-right {
+  background-color: #dcf2ff;
+  background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/637724_original.png?1526014970);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 175px;
+  background-size: 100%;
+  @include mobile {
+    padding-bottom: 20px;
+    padding-right: 30px;
+    background-image: linear-gradient(rgba(220, 242, 255, 1), rgba(220, 242, 255, 0.6)), url(https://mytinder.s3.amazonaws.com/assets/medias/637724_original.png?1526014970);
+    background-position: bottom right;
+  }
+}
+
+.salesforce--forest-layout-low {
+  background-image: linear-gradient(rgba(white, 1), rgba(white, 0)), url(https://mytinder.s3.amazonaws.com/assets/medias/637725_original.jpg?1526014971);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

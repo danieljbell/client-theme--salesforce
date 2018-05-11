@@ -1,0 +1,25 @@
+@mixin banner() {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  #content_editor &,
+  .pdf-page-content & {
+    color: #fff !important;
+    padding: 5px;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: calc(100% + 90px);
+    bottom: 0;
+    background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/637726_original.png?1526014971);
+    background-size: cover;
+    z-index: -1;
+  }
+}
+
+.salesforce--banner--green {
+  @include banner();
+}

@@ -1,0 +1,57 @@
+.salesforce--blockquote {
+  #content_editor &,
+  .pdf-page-content & {
+    margin: 0 !important;
+  }
+}
+
+.salesforce--blockquote-headshot {
+  border-radius: 50%;
+  max-width: 125px !important;
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.salesforce--blockquote-logo {
+  max-width: 115px !important;
+  max-height: 75px !important;
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.salesforce--blockquote-person {
+  text-transform: uppercase;
+}
+
+.salesforce--customer-success {
+  text-align: center;
+}
+
+.salesforce--customer-success .salesforce--blockquote {
+  text-align: left;
+  max-width: 250px;
+  position: relative;
+  z-index: 1;
+  padding: 0 15px;
+  display: inline-block;
+  background-color: #fff;
+  
+  #content_editor &,
+  .pdf-page-content & {
+    margin: 0 30px 0 0 !important;
+    &:last-child {
+      margin-right: 0 !important;
+    }
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 63px;
+    left: 0;
+    right: 0;
+    border-top: 3px solid $brand;
+    z-index: -1;
+  }
+
+}

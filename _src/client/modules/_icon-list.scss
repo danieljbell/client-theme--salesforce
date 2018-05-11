@@ -1,0 +1,17 @@
+.salesforce--icon-list {
+  display: table;
+}
+
+.salesforce--icon-icon,
+.salesforce--icon-content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.salesforce--icon-icon {
+  width: 50px;
+}
+
+.salesforce--icon-content {
+  padding-left: 15px;
+}

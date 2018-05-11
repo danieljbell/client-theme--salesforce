@@ -1,0 +1,43 @@
+.salesforce--pulled-box {
+  background-color: #f4f4f4;
+  margin: 15px 0 15px 15px;
+  padding: 20px;
+  position: relative;
+  font-size: 18px;
+  @include mobile {
+    margin: 15px 0 0;
+  }
+  
+  &:after {
+    width: 0;
+    height: 0;
+    top: 45px;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-width: 20px;
+    right: 100%;
+    border-right-color: #f4f4f4;
+    @include mobile {
+      top: auto;
+      bottom: 100%;
+      left: 25px;
+      right: auto;
+      border-right-color: transparent;
+      border-bottom-color: #f4f4f4;
+    }
+  }
+
+  #content_editor & h2 {
+    font-size: 1em !important;
+    line-height: 1 !important;
+  }
+
+  #content_editor & p,
+  #content_editor & li {
+    font-size: 0.8em !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.5em !important;
+  }
+
+}

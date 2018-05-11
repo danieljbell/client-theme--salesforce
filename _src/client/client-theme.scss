@@ -6,7 +6,12 @@
 GITHUB REPO: https://github.com/danieljbell/client-theme-template
 =================================================================
 */
-
+@import
+  './modules/hero',
+  './modules/banners',
+  './modules/pulled-box',
+  './modules/blockquote',
+  './modules/icon-list';
 
 @import './_overrides';
 @import './_utilities';
