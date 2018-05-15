@@ -12,7 +12,8 @@
   }
 }
 
-.salesforce--mountain-right {
+.salesforce--mountain-right,
+.salesforce--low-forest-mountain-right {
   background-color: #dcf2ff;
   background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/637724_original.png?1526014970);
   background-repeat: no-repeat;
@@ -33,4 +34,13 @@
   background-image: linear-gradient(rgba(white, 1), rgba(white, 0)), url(https://mytinder.s3.amazonaws.com/assets/medias/637725_original.jpg?1526014971);
   background-repeat: no-repeat;
   background-position: bottom;
+}
+
+.salesforce--low-forest-mountain-right {
+  background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/638906_thumb.png?1526352194);
+  // background-size: cover;
+  background-repeat: no-repeat;
+  @include mobile {
+    background-image: linear-gradient(rgba(220, 242, 255, 1), rgba(220, 242, 255, 0.6)), url(https://mytinder.s3.amazonaws.com/assets/medias/638906_thumb.png?1526352194);
+  }
 }

@@ -1,0 +1,22 @@
+.salesforce--page-digital-transformation {
+  background-color: #7bc5f1;
+  background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/638916_original.png?1526353901);
+  position: relative;
+  left: -30px;
+  top: -20px;
+  margin-bottom: -40px;
+  width: calc(100% + 60px);
+  padding: 50px 200px 175px 30px;
+  background-size: cover;
+  background-position: center bottom;
+  @include mobile {
+    padding: 50px 20px 115px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  * {
+    color: #ffffff !important;
+  }
+
+}

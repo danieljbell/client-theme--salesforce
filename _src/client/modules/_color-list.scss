@@ -1,0 +1,70 @@
+.salesforce--color-list {
+  display: table;
+  counter-reset: color-list;
+  @include mobile {
+    display: block;
+  }
+  
+  #content_editor &,
+  .pdf-page-content & {
+    padding-left: 0 !important;
+  }
+
+  > * {
+    display: table-cell;
+    text-align: center;
+    padding: 0 15px;
+    width: 25%;
+    @include mobile {
+      display: table;
+      width: 100%;
+      padding: 0;
+    }
+    
+    &:first-child {
+      padding-left: 0;
+    }
+    
+    &:last-child {
+      padding-right: 0;
+    }
+
+  }
+
+  li {
+    position: relative;
+    @include mobile {
+      margin-bottom: 1em;
+    }
+    
+    &:before {
+      content: counter(color-list);
+      display: block;
+      width: 60px;
+      height: 60px;
+      background-color: #032E61;
+      color: #ffffff;
+      font-weight: bold;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      font-size: 28px;
+      line-height: 56px;
+      counter-increment: color-list;
+      text-shadow: 1px 1px 3px rgba(black, 0.1);
+    }
+
+    &:nth-child(2):before {
+      background-color: #215CA0;
+    }
+
+    &:nth-child(3):before {
+      background-color: #8CD3F8;
+    }
+
+    &:nth-child(4):before {
+      background-color: #C2E8FF;
+    }
+
+  }
+
+}

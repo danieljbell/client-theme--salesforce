@@ -1,0 +1,13 @@
+.salesforce--button-solid--white {
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 250ms ease-in-out;
+  
+  &:hover {
+    background-color: #fff;
+    color: $brand !important;
+  }
+
+}

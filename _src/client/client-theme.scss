@@ -11,7 +11,14 @@ GITHUB REPO: https://github.com/danieljbell/client-theme--salesforce
   './modules/banners',
   './modules/pulled-box',
   './modules/blockquote',
-  './modules/icon-list';
+  './modules/icon-list',
+  './modules/branch-points',
+  './modules/buttons',
+  './modules/color-list',
+  './modules/logos-list';
+
+@import
+  './pages/digital-transformation';  
 
 @import './_overrides';
 @import './_utilities';
